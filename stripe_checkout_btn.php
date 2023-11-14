@@ -1,28 +1,26 @@
 <?php
-require_once('vendor/autoload.php'); // Include the Stripe PHP library
+require 'vendor/autoload.php';
 
-\Stripe\Stripe::setApiKey('YOUR_STRIPE_SECRET_KEY'); // Replace with your own Stripe Secret Key
+$stripe = new \Stripe\StripeClient('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
-$session = \Stripe\Checkout\Session::create([
-  'payment_method_types' => ['card'],
-  'line_items' => [
-    [
-      'price_data' => [
-        'currency' => 'usd',
-        'unit_amount' => 2000, // Replace with the actual price in cents
-        'product_data' => [
-          'name' => 'Your Product Name',
-        ],
+$checkout_session = $stripe->checkout->sessions->create([
+  'line_items' => [[
+    'price_data' => [
+      'currency' => 'usd',
+      'product_data' => [
+        'name' => 'T-shirt',
       ],
-      'quantity' => 1,
+      'unit_amount' => 2000,
     ],
-  ],
+    'quantity' => 1,
+  ]],
   'mode' => 'payment',
-  'success_url' => 'https://example.com/success', // Replace with your own success URL
-  'cancel_url' => 'https://example.com/cancel', // Replace with your own cancel URL
+  'success_url' => 'http://localhost/success',
+  'cancel_url' => 'http://localhost/cancel',
 ]);
 
-$checkout_session_id = $session->id;
+header("HTTP/1.1 303 See Other");
+
 ?>
 
 <!DOCTYPE html>

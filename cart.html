@@ -184,7 +184,9 @@
               <div class="bg-light px-4 py-3">
                 <div class="row align-items-center text-center">
                   <div class="col-md-6 mb-3 mb-md-0 text-md-start"><a class="btn btn-link p-0 text-dark btn-sm" href="shop.html"><i class="fas fa-long-arrow-alt-left me-2"> </i>Continue shopping</a></div>
-                  <div class="col-md-6 text-md-end"><a class="btn btn-outline-dark btn-sm" href="checkout.html">Procceed to checkout<i class="fas fa-long-arrow-alt-right ms-2"></i></a></div>
+                  <form action="<?php echo checkout.php; ?>">
+                    <div class="col-md-6 text-md-end"><a class="btn btn-outline-dark btn-sm" href="/checkout.html">Procceed to checkout<i class="fas fa-long-arrow-alt-right ms-2"></i></a></div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -270,7 +272,6 @@
         //   https://css-tricks.com/ajaxing-svg-sprite/
         // ------------------------------------------------------ //
         function injectSvgSprite(path) {
-        
             var ajax = new XMLHttpRequest();
             ajax.open("GET", path, true);
             ajax.send();

@@ -135,15 +135,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                          </a>
+                        <div class="col-md-6" id="checkout">
+                          
                         </div>
                     </div>
                 </div>
-                                    <div class="card-footer">
-                        <?php if (isset($_POST['renew_field'])) { $back_link = "offer_renew.php?offerid=".$_POST['renew_field']; } else { $back_link = "offer_create.php"; } ?>
-                        <a href="<?php echo $back_link; ?>" id="back_to_offer" type="button" class="btn btn-primary text-white" style="left:15px;"><i class="fa-solid fa-circle-arrow-left"></i> Back to offer</a>
-                    </div>
+                    <d  iv class="card-footer">
+                      <?php if (isset($_POST['renew_field'])) { $back_link = "offer_renew.php?offerid=".$_POST['renew_field']; } else { $back_link = "offer_create.php"; } ?>
+                      <a href="<?php echo $back_link; ?>" id="back_to_offer" type="button" class="btn btn-primary text-white" style="left:15px;"><i class="fa-solid fa-circle-arrow-left"></i> Back to offer</a>
+                  </d>
             </div>
         </div>  
     </div>
@@ -151,11 +151,32 @@
 
     <script src="assets/js/vendor/sha512.js"></script>
     <?php include 'templates/footer.php'; ?>
-
+  <script src="https://js.stripe.com/v3/"></script>
 <script>
-fetch('https://api.myhelcim.com/v2/helcim-pay/initialize', payload)
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
+  
+  const stripe = Stripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+  
+  initialize();
+  
+  // Create a Checkout Session as soon as the page loads
+  async function initialize() {
+    const response = await fetch("./stripe_checkout.php", {
+      method: "POST",
+    });
+    
+    const { clientSecret } = await response.json();
+    
+    const checkout = await stripe.initEmbeddedCheckout({
+      clientSecret,
+    });
+    
+    // Mount Checkout
+    checkout.mount('#checkout');
+  }
+
+  fetch('https://api.myhelcim.com/v2/helcim-pay/initialize', payload)
+    .then(response => console.log(response))
+    .catch(err => console.error(err));
 </script>
 
   </body> 

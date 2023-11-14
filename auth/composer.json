@@ -1,27 +1,33 @@
 {
-    "name": "loshmis/advanced-security",
-    "description": "Advanced Security - PHP Register/Login System",
-    "keywords": ["advanced", "secure", "login", "user management", "login system"],
-    "type": "project",
-    "require": {
-        "php": ">=7.2.5",
-        "pimple/pimple": "^3.5",
-        "phpmailer/phpmailer": "^6.6",
-        "stripe/stripe-php": "^7.0",
-        "hybridauth/hybridauth": "^3.8",
-        "ext-pdo": "*",
-        "ext-json": "*"
-    },
-    "autoload": {
-        "classmap": [
-            "ASEngine"
-        ],
-        "files": [
-            "ASEngine/ASConfig.php",
-            "ASEngine/ASHelperFunctions.php"
-        ]
-    },
-    "config": {
-        "preferred-install": "dist"
-    }
+  "name": "loshmis/advanced-security",
+  "description": "Advanced Security - PHP Register/Login System",
+  "keywords": [
+    "advanced",
+    "secure",
+    "login",
+    "user management",
+    "login system"
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=7.2.5",
+    "pimple/pimple": "^3.5",
+    "phpmailer/phpmailer": "^6.6",
+    "stripe/stripe-php": "^13.3",
+    "hybridauth/hybridauth": "^3.8",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "ASEngine"
+    ],
+    "files": [
+      "ASEngine/ASConfig.php",
+      "ASEngine/ASHelperFunctions.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
 }
