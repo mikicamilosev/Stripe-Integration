@@ -1,0 +1,153 @@
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover-container {
+    flex: 1;
+}
+
+.cover-container > nav {
+    flex: none;
+}
+.cover-container > .container {
+    flex: 1 0 auto;
+}
+.cover-container > footer {
+    flex: none;
+}
+
+/*
+ * Navbar
+ */
+.navbar {
+    min-height: 60px;
+}
+
+.localization-icons img {
+    width: 21px;
+    opacity: 0.3;
+}
+
+.localization-icons img:hover,
+.localization-icons img.active {
+    opacity: 1;
+}
+
+/**
+ * Sidebar
+ */
+
+.list-group-borderless .list-group-item {
+    border: 0 !important;
+}
+
+.list-group-borderless .list-group-item.active {
+    color: #007bff;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+.list-group-borderless .list-group-item i {
+    color: #666;
+    width: 25px;
+}
+
+.list-group-borderless .list-group-item.active i {
+    color: #007bff;
+}
+
+/**
+ * Social Buttons
+ */
+.btn-social:hover {
+    opacity: 0.85;
+    text-decoration: none;
+}
+
+.btn-facebook, .btn-facebook:hover {
+    color: #3B5998;
+}
+
+.btn-twitter, .btn-twitter:hover {
+    color: #55ACEE;
+}
+
+.btn-google, .btn-google:hover {
+    color: #dd4b39;
+}
+
+/**
+ * Login Page Form Wrapper
+ */
+.form-wrapper { display: none; }
+.form-wrapper.active { display: block; }
+
+/**
+ * Misc
+ */
+
+.page-header small {
+    font-size: 1rem;
+}
+
+.blockquote {
+    font-size: 1rem;
+}
+
+.table th {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.dropdown-item i {
+    color: #666;
+}
+
+label .required {
+    color: #a00;
+}
+
+.table-responsive {
+    min-height: 200px;
+}
+
+dt {
+    font-weight: 400 !important;
+}
+
+dd {
+    font-weight: 700;
+}
+
+/**
+ * Responsive CSS Rules
+ */
+
+@media (min-width : 992px) {
+    .table-responsive {
+        overflow-x: visible;
+    }
+}
+
+@media (max-width : 768px) {
+    .list-group-borderless {
+        margin-bottom: 20px;
+    }
+
+    .localization-icons {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        display: flex !important;
+        justify-content: space-evenly;
+    }
+}

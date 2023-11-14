@@ -1,0 +1,203 @@
+[05-Aug-2023 23:32:38 America/New_York] PHP Notice:  Undefined index: rate_amount_cents in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 32
+[05-Aug-2023 23:34:08 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_WHUwjyagmXAyJg) This value must be greater than or equal to 1.
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/vendor/stripe/lib/Exception/ApiErrorException.php on line 38
+[05-Aug-2023 23:34:29 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 95
+[05-Aug-2023 23:34:29 America/New_York] PHP Notice:  Undefined index: feat_offer_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 98
+[05-Aug-2023 23:34:29 America/New_York] PHP Notice:  Undefined index: xpost_facebook in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 108
+[05-Aug-2023 23:34:29 America/New_York] PHP Notice:  Undefined index: auto_renew in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 118
+[05-Aug-2023 23:34:29 America/New_York] PHP Notice:  Undefined index: sum_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 134
+[05-Aug-2023 23:34:30 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_7leobgSa3RLMyL) This value must be greater than or equal to 1.
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/vendor/stripe/lib/Exception/ApiErrorException.php on line 38
+[06-Aug-2023 00:01:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php on line 6
+[06-Aug-2023 00:01:40 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 95
+[06-Aug-2023 00:01:40 America/New_York] PHP Notice:  Undefined index: feat_offer_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 98
+[06-Aug-2023 00:01:40 America/New_York] PHP Notice:  Undefined index: xpost_facebook in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 108
+[06-Aug-2023 00:01:40 America/New_York] PHP Notice:  Undefined index: auto_renew in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 118
+[06-Aug-2023 00:01:40 America/New_York] PHP Notice:  Undefined index: sum_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 134
+[06-Aug-2023 00:01:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php on line 6
+[06-Aug-2023 00:01:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php on line 6
+[06-Aug-2023 00:20:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_result() on null in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php on line 12
+[06-Aug-2023 00:33:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_result() on null in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/checkout.php on line 12
+[07-Aug-2023 16:26:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/nickc36.sg-host.com/public_html/auth/offers_browse.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/offers_browse.php on line 59
+[07-Aug-2023 16:27:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/nickc36.sg-host.com/public_html/auth/offers_browse.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/offers_browse.php on line 60
+[07-Aug-2023 16:29:09 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 20
+[07-Aug-2023 16:37:13 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[07-Aug-2023 16:42:45 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 20
+[07-Aug-2023 16:44:55 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 20
+[07-Aug-2023 16:49:12 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 20
+[09-Aug-2023 00:24:58 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[11-Aug-2023 02:35:57 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[11-Aug-2023 02:36:20 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 20
+[11-Aug-2023 02:37:18 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Aug-2023 04:29:14 America/New_York] PHP Warning:  include(templates/languages.php): failed to open stream: No such file or directory in /home/customer/www/nickc36.sg-host.com/public_html/auth/confirm.php on line 42
+[24-Aug-2023 04:29:14 America/New_York] PHP Warning:  include(): Failed opening 'templates/languages.php' for inclusion (include_path='.:/usr/local/php74/pear') in /home/customer/www/nickc36.sg-host.com/public_html/auth/confirm.php on line 42
+[24-Aug-2023 04:29:29 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Aug-2023 04:30:05 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Aug-2023 04:31:57 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Aug-2023 04:32:04 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Aug-2023 04:34:39 America/New_York] PHP Warning:  include(templates/languages.php): failed to open stream: No such file or directory in /home/customer/www/nickc36.sg-host.com/public_html/auth/confirm.php on line 42
+[24-Aug-2023 04:34:39 America/New_York] PHP Warning:  include(): Failed opening 'templates/languages.php' for inclusion (include_path='.:/usr/local/php74/pear') in /home/customer/www/nickc36.sg-host.com/public_html/auth/confirm.php on line 42
+[24-Aug-2023 04:40:09 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[28-Aug-2023 23:34:14 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[28-Aug-2023 23:34:28 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 20
+[05-Sep-2023 22:33:20 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[05-Sep-2023 22:35:59 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[05-Sep-2023 22:43:16 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[05-Sep-2023 22:43:27 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[06-Sep-2023 02:06:49 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[06-Sep-2023 02:06:57 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[06-Sep-2023 22:41:38 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[06-Sep-2023 22:41:42 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[06-Sep-2023 23:03:26 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 4
+[06-Sep-2023 23:03:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php:10
+Stack trace:
+#0 /home/customer/www/nickc36.sg-host.com/public_html/auth/offers_saved.php(9): require()
+#1 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 10
+[22-Sep-2023 21:32:22 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:33:33 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 21:33:37 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 21:33:37 America/New_York] PHP Notice:  Undefined index: offerid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 17
+[22-Sep-2023 21:33:37 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 31
+[22-Sep-2023 21:34:21 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:41:16 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:41:43 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:42:16 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:44:06 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:44:26 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:44:43 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:45:09 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:45:41 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:56:36 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:56:40 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 21:56:45 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 22:00:22 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[22-Sep-2023 22:00:28 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:00:34 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:00:34 America/New_York] PHP Notice:  Undefined index: offerid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 17
+[22-Sep-2023 22:00:34 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 31
+[22-Sep-2023 22:01:12 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:01:12 America/New_York] PHP Notice:  Undefined index: offerid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 17
+[22-Sep-2023 22:01:12 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 31
+[22-Sep-2023 22:01:20 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:04:22 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:05:26 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:08:36 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:09:26 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:11:08 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:11:44 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:11:44 America/New_York] PHP Notice:  Undefined index: offerid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 17
+[22-Sep-2023 22:11:44 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 31
+[22-Sep-2023 22:12:08 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:12:12 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:12:12 America/New_York] PHP Notice:  Undefined index: offerid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 17
+[22-Sep-2023 22:12:12 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 31
+[22-Sep-2023 22:12:14 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:24:27 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:27:46 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:27:46 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing1.php on line 33
+[22-Sep-2023 22:28:25 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:28:25 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing1.php on line 33
+[22-Sep-2023 22:29:33 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:29:33 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing1.php on line 36
+[22-Sep-2023 22:30:29 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:30:29 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing1.php on line 36
+[22-Sep-2023 22:30:34 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:30:34 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing1.php on line 36
+[22-Sep-2023 22:30:37 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:30:43 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:36:30 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:36:32 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:36:32 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing1.php on line 36
+[22-Sep-2023 22:38:42 America/New_York] PHP Parse error:  syntax error, unexpected 'method' (T_STRING) in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit.php on line 27
+[22-Sep-2023 22:39:44 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:39:49 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:39:49 America/New_York] PHP Notice:  Undefined index: orderid in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_edit_processing.php on line 36
+[22-Sep-2023 22:40:12 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:41:08 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:41:15 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[22-Sep-2023 22:52:19 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:01:20 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:05:11 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:08:08 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:41:30 America/New_York] PHP Notice:  Undefined index: qna in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 13
+[22-Sep-2023 23:41:30 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:41:45 America/New_York] PHP Notice:  Undefined index: qna in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 13
+[22-Sep-2023 23:41:45 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:42:39 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:42:54 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:44:08 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:45:40 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:47:16 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[22-Sep-2023 23:47:55 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[23-Sep-2023 01:07:56 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[23-Sep-2023 21:28:46 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[23-Sep-2023 21:28:56 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[23-Sep-2023 21:29:03 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[23-Sep-2023 21:29:12 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[23-Sep-2023 21:29:17 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[23-Sep-2023 21:35:55 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[23-Sep-2023 21:45:59 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Sep-2023 19:46:46 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Sep-2023 19:47:07 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[24-Sep-2023 20:17:33 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[24-Sep-2023 20:21:45 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[24-Sep-2023 20:24:08 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[24-Sep-2023 20:25:23 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[24-Sep-2023 20:27:30 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[24-Sep-2023 20:28:48 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[24-Sep-2023 21:14:33 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[25-Sep-2023 21:10:27 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[25-Sep-2023 21:11:21 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[25-Sep-2023 22:14:20 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 19:35:46 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 19:58:25 America/New_York] PHP Notice:  Undefined index: asking_price_formatted in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_details.php on line 107
+[29-Sep-2023 20:17:36 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[29-Sep-2023 20:17:42 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[29-Sep-2023 20:17:49 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[29-Sep-2023 20:18:06 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 20:19:12 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 20:19:36 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 20:31:30 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 20:31:34 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 20:36:40 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 21:17:04 America/New_York] PHP Notice:  Undefined index: price_per_unit in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_details.php on line 113
+[29-Sep-2023 21:29:56 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 21:30:06 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 21:35:39 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[29-Sep-2023 21:56:52 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[01-Oct-2023 13:01:30 America/New_York] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_details.php on line 46
+[01-Oct-2023 22:21:05 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[05-Oct-2023 01:00:55 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[08-Oct-2023 14:45:16 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[08-Oct-2023 21:48:52 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[01-Nov-2023 19:28:19 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[01-Nov-2023 19:39:29 America/New_York] PHP Notice:  Undefined index: 30_day_charge in /home/customer/www/nickc36.sg-host.com/public_html/auth/offer_pay.php on line 71
+[01-Nov-2023 19:44:28 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[01-Nov-2023 19:44:33 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[01-Nov-2023 19:44:42 America/New_York] PHP Notice:  Undefined variable: sidebarActive in /home/customer/www/nickc36.sg-host.com/public_html/auth/templates/sidebar.php on line 22
+[05-Nov-2023 21:48:56 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[06-Nov-2023 22:46:17 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[13-Nov-2023 18:26:16 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16
+[13-Nov-2023 20:49:55 America/New_York] PHP Notice:  Undefined index: featured_listings in /home/customer/www/nickc36.sg-host.com/public_html/auth/index.php on line 16

@@ -1,0 +1,12 @@
+[29-Sep-2023 22:24:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/nickc36.sg-host.com/public_html/auth/ajax/load_offers.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/ajax/load_offers.php on line 32
+[29-Sep-2023 22:25:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/nickc36.sg-host.com/public_html/auth/ajax/load_offers.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/ajax/load_offers.php on line 32
+[29-Sep-2023 22:25:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/customer/www/nickc36.sg-host.com/public_html/auth/ajax/load_offers.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nickc36.sg-host.com/public_html/auth/ajax/load_offers.php on line 32
