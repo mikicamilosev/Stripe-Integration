@@ -23,7 +23,7 @@
                     <i class="fa-solid fa-rotate"></i> Renew offer
                 </div>
                 <div class="card-body">
-                    <form id="form-details" name="offer_form" action="offer_pay.php" method="POST">
+                    <form id="form-details" name="offer_form" action="<?= "offer_pay.php?offerid=".$_GET['offerid'] ?>" method="POST">
                         <input type="hidden" value="<?php echo $offer_id; ?>" name="renew_field">
                         <div class="row">
                             <div class="mb-3">
@@ -65,7 +65,7 @@
                         <div class="row">
                             <div class="mb-3 col-4">
                                 <label><h5>Quantity to sell*</h5></label>
-                                <input name="qna" type="text" class="form-control nospaces numbersonly" value="<?php echo $row['units_available']; ?>" required>
+                                <input name="qts" type="text" class="form-control nospaces numbersonly" value="<?php echo $row['units_available']; ?>" required>
                             </div>
                             <div class="mb-3 col-4">
                                 <label><h5>Total asking price $ (USD)*</h5></label>

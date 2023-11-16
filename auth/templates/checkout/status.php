@@ -1,7 +1,7 @@
 <?php
 
-require_once '../vendor/autoload.php';
-require_once '../secrets.php';
+require_once '../../vendor/autoload.php';
+require_once 'secrets.php';
 
 $stripe = new \Stripe\StripeClient($stripeSecretKey);
 header('Content-Type: application/json');
@@ -19,4 +19,3 @@ try {
   http_response_code(500);
   echo json_encode(['error' => $e->getMessage()]);
 }
-?>

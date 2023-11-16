@@ -15,7 +15,8 @@ async function initialize() {
   const session = await response.json();
 
   if (session.status == 'open') {
-    window.replace('https://localhost/webshop/nickc36.sg-host.com/public_html/checkout/checkout.html')
+// $YOUR_DOMAIN = defined('WEBSITE_DOMAIN');
+    window.replace('<?= WEBSITE_DOMAIN.\'/auth/templates/checkout\'?>');
   } else if (session.status == 'complete') {
     document.getElementById('success').classList.remove('hidden');
     document.getElementById('customer-email').textContent = session.customer_email

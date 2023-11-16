@@ -6,14 +6,21 @@ date_default_timezone_set('America/New_York');
 //WEBSITE
 
 define('WEBSITE_NAME', 'Rid My Inventory');
-define('WEBSITE_DOMAIN', 'https://nickc36.sg-host.com');
+// define('WEBSITE_DOMAIN', 'http://nickc36.sg-host.com');
+define('WEBSITE_DOMAIN', 'https://localhost/webshop/nickc36.sg-host.com/public_html/');
 
 // It can be the same as domain (if script is placed on website's root folder)
 // or it can contain path that include subfolders, if script is located in
 //some subfolder and not in root folder.
+// define('SCRIPT_URL', 'http://nickc36.sg-host.com/auth/');
 define('SCRIPT_URL', 'https://localhost/webshop/nickc36.sg-host.com/public_html/auth/');
 
 //DATABASE CONFIGURATION
+// define('DB_HOST', 'localhost');
+// define('DB_TYPE', 'mysql');
+// define('DB_USER', 'uge2tu5r4idiz');
+// define('DB_PASS', '&)#1A215*2*e');
+// define('DB_NAME', 'dbvfylgjseyivt');
 define('DB_HOST', 'localhost');
 define('DB_TYPE', 'mysql');
 define('DB_USER', 'root');
@@ -35,6 +42,8 @@ define('PASSWORD_RESET_KEY_LIFE', 30);
 
 // REGISTRATION CONFIGURATION
 define('MAIL_CONFIRMATION_REQUIRED', true);
+// define('REGISTER_CONFIRM', "http://nickc36.sg-host.com/auth/confirm.php");
+// define('REGISTER_PASSWORD_RESET', "http://nickc36.sg-host.com/auth/passwordreset.php");
 define('REGISTER_CONFIRM', "https://localhost/webshop/nickc36.sg-host.com/public_html/auth/confirm.php");
 define('REGISTER_PASSWORD_RESET', "https://localhost/webshop/nickc36.sg-host.com/public_html/auth/passwordreset.php");
 
