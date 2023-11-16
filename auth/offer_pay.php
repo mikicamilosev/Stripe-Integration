@@ -138,7 +138,7 @@
     <script src="assets/js/vendor/sha512.js"></script>
     <?php include 'templates/footer.php'; ?>
 <script>
-  const stripe = Stripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+  const stripe = Stripe("pk_test_feUKOpatySldg2aiLoETNOzd");
   
   initialize();
   

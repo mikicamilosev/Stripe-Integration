@@ -56,63 +56,110 @@ header('Content-Type: application/json');
 
 $YOUR_DOMAIN = WEBSITE_DOMAIN . 'auth/templates/checkout';
 
-$checkout_session = $stripe->checkout->sessions->create([
-  'ui_mode' => 'embedded',
-  'line_items' => [
-    [
-      'price_data' => [
-        'currency' => 'usd',
-        'product_data' => [
-          'name' => '30 Day Renewal',
-          'description' => $_POST['desc'],
-          'images' => [
-            $_POST['img_link1'],
+if($_POST['auto_renew'] > 0){
+  $checkout_session = $stripe->checkout->sessions->create([
+    'ui_mode' => 'embedded',
+    'line_items' => [
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => 'Auto Renew(monthly)',
+            'description' => $_POST['desc'],
+            'images' => [
+              $_POST['img_link1'],
+            ]
+          ],
+          'unit_amount' => $_POST['auto_renew'] * 100,
+          'recurring' => [
+            'interval' => 'month',
+            'interval_count' => 6
           ]
         ],
-        'unit_amount' => $_POST['month_charge'] * 100,
-        'recurring' => [
-          'interval' => 'month',
-          'interval_count' => 1
-        ]
+        'quantity' => 1,
       ],
-      'quantity' => 1,
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => '30 Day Renewal',
+            'description' => $_POST['desc'],
+            'images' => [
+              $_POST['img_link1'],
+            ]
+          ],
+          'unit_amount' => $_POST['month_charge'] * 100,
+        ],
+        'quantity' => 1,
+      ],
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => 'Featured offer banner',
+          ],
+          'unit_amount' => $_POST['feat_offer'] * 100,
+        ],
+        'quantity' => 1,
+      ],
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => 'Cross-post offer to Facebook group',
+          ],
+          'unit_amount' => $_POST['xpost_facebook'] * 100,
+        ],
+        'quantity' => 1,
+      ],
     ],
-    // [
-    //   'price_data' => [
-    //     'currency' => 'usd',
-    //     'product_data' => [
-    //       'name' => 'Featured offer banner',
-    //       // 'image' => ''
-    //     ],
-    //     'unit_amount' => $_POST['feat_offer'] * 100,
-    //   ],
-    //   'quantity' => 1,
-    // ],
-    // [
-    //   'price_data' => [
-    //     'currency' => 'usd',
-    //     'product_data' => [
-    //       'name' => 'Cross-post offer to Facebook group',
-    //       // 'image' => ''
-    //     ],
-    //     'unit_amount' => $_POST['xpost_facebook'] * 100,
-    //   ],
-    //   'quantity' => 1,
-    // ],
-    // [
-    //   'price_data' => [
-    //     'currency' => 'usd',
-    //     'product_data' => [
-    //       'name' => 'Auto renew offer (monthly charge)',
-    //       // 'image' => ''
-    //     ],
-    //     'unit_amount' => $_POST['auto_renew'] * 100,
-    //   ],
-    //   'quantity' => 1,
-    // ]
-  ],
-  'mode' => 'subscription',
-  'return_url' => $YOUR_DOMAIN . '/return.html?session_id={CHECKOUT_SESSION_ID}',
-]);
+    'mode' => 'subscription',
+    'return_url' => $YOUR_DOMAIN . '/return.html?session_id={CHECKOUT_SESSION_ID}',
+  ]);
+} else {
+  $checkout_session = $stripe->checkout->sessions->create([
+    'ui_mode' => 'embedded',
+    'line_items' => [
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => '30 Day Renewal',
+            'description' => $_POST['desc'],
+            'images' => [
+              $_POST['img_link1'],
+            ]
+          ],
+          'unit_amount' => $_POST['month_charge'] * 100,
+        ],
+        'quantity' => 1,
+      ],
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => 'Featured offer banner',
+          ],
+          'unit_amount' => $_POST['feat_offer'] * 100,
+        ],
+        'quantity' => 1,
+      ],
+      [
+        'price_data' => [
+          'currency' => 'usd',
+          'product_data' => [
+            'name' => 'Cross-post offer to Facebook group',
+          ],
+          'unit_amount' => $_POST['xpost_facebook'] * 100,
+        ],
+        'quantity' => 1,
+      ],
+    ],
+    'mode' => 'payment',
+    'return_url' => $YOUR_DOMAIN . '/return.html?session_id={CHECKOUT_SESSION_ID}',
+  ]);
+}
+
+
  
 echo json_encode(array('clientSecret' => $checkout_session->client_secret));
